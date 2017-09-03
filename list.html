@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<!--重置样式-->
+		<link rel="stylesheet" type="text/css" href="style/reset.css"/>
+		<!--公共部分样式-->
+		<link rel="stylesheet" type="text/css" href="style/common.css"/>
+		<!--头部样式-->
+		<link rel="stylesheet" type="text/css" href="style/header.css"/>
+		<!--轮播样式-->
+		<link rel="stylesheet" type="text/css" href="style/slide.css"/>
+		<!--页脚样式-->
+		<link rel="stylesheet" type="text/css" href="style/footer.css"/>
+		<!--引入样式-->
+		<link rel="stylesheet" type="text/css" href="style/list.css"/>
+		<!--引入jq文件库-->
+		<script src="script/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="script/list.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入js轮播插件-->
+		<script src="script/tyslide.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--页头开始-->
+		<div class="autoBox" id="header">
+			<!--登录-->
+			<div class="autoBox login_top">
+				<div class="box1200" id="login_text"> 
+					欢迎光临<span>乐购</span>,请<a href="#">登录</a>\<a href="#">注册</a>
+				</div>
+			</div>
+			<!--搜索框+购物车-->
+			<div class="box1200 back_gauge"> 
+				<!--购物车-->
+				<ul class="shopCart">
+					<li class="left_text">购物车 3</li>
+					<li>我的订单</li>
+				</ul>
+				<!--搜索框-->
+				<div id="search">
+					<form action="#" method="get">
+						<input type="text" id="searchBox" value="" placeholder="创意文具" />
+						<input type="button" id="searchBtn" value="" />
+					</form>
+				</div>
+			</div>
+			<!--导航栏-->
+			<div class="box1200">
+				<!--Logo-->
+				<div id="logo">
+					<img src="images/LOGO.jpg"/>
+				</div>
+				<!--导航栏-->
+				<ul id="mainNav">
+					<li>图书</li>
+					<li>电子书</li>
+					<li>原创文学</li>
+					<li>服装</li>
+					<li>运动户外</li>
+					<li>孕婴童</li>
+					<li>家居</li>
+					<li>创意文具</li>
+					<li>地方特产</li>
+					<li>海外购</li>
+					<li>电器城</li>
+				</ul>
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--页头结束-->
+		
+		<!--banner轮播+分类开始-->
+		<div class="box1200" id="categoryBanner">
+			<!--轮播开始-->
+			<div class="carousel">
+				<!--轮播1-->
+				<div class="pptbox" id="carouselBanner">
+					<ul class="innerwrapper">
+						<li><a href="#"><img src="images/banner1.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner2.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner3.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner4.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner5.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner6.jpg"/></a></li>
+					</ul>
+					<ul class="controls">
+						<li class="current">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+					</ul>			
+					<span class="btnleft"></span>
+					<span class="btnright"></span>
+				</div>
+			</div>
+			<!--轮播结束-->
+			<!--右侧内容-->
+			<div class="bannerRight" id="bannerRights">
+				<p class="bannerTitle font20">热卖畅销</p>
+				<ul>
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight">1</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight">2</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight">3</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight bkcolor">4</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight bkcolor">5</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight bkcolor">6</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<li class="bnnarRit">
+						<p class="colorWhite bannerList"><span class="floatRight bkcolor">7</span></p>
+						<div class="bannerListCont">
+							<img class="floatLeft" src="images/ddddd.jpg"/>
+							<p class="bannerTxt floatRight">《三体》刘慈欣一场科幻的史诗风暴</p>
+						</div>
+					</li>
+					
+					<!--清除浮动-->
+					<div class="clear"></div>
+				</ul>
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--轮播+分类结束-->
+		
+		<!--wow广告栏开始-->
+		<div class="box1200 advertising">
+			<img src="images/ad2.png"/>
+		</div>
+		<!--wow广告栏结束-->
+		
+		<!--折扣开始-->
+		<div class="box1200  maringTop" id="discount">
+			<div class="disTitle">
+				<p class="distitle colorWhite">
+				乐购·图书折扣
+				</p>
+			</div>
+			<ul class="box1200">
+				<li class="discountCont disLeft">
+					<img class="imgcenter" src="images/baiyexing.png"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing.png"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing.png"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing.png"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing.png"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont disLeft">
+					<img class="imgcenter" src="images/baiyexing2.jpg"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing2.jpg"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing2.jpg"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing2.jpg"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+				
+				<li class="discountCont">
+					<img class="imgcenter" src="images/baiyexing2.jpg"/>
+					<img src="images/6z.png"/>
+					<p>白夜行   东野上吾 </p>
+					<p class="colorRed font12">推荐:</p>
+					<p><span class="colorRed font18">&yen;:38</span>&emsp;<span class="colorgary font18">&yen;:58</span></p>
+				</li>
+			</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--折扣结束-->
+		
+		<!--newBook新书上架开始-->
+		<div class="box1200 maringTop" id="newBook">
+			<div class="disTitle newBookTit">
+				<p class="distitles colorWhite">
+				新
+				</p>
+				<p class="distitlesr">书上架</p>
+			<!--清除浮动-->
+			<div class="clear"></div>
+			</div>
+			<!--左侧内容-->
+			<ul class="newBookLeft floatLeft">
+				<li class="newBookCon newbooks">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="newBookCon newbooks">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="newBookCon">
+					<img class="imgcenter" src="images/book1.jpg"/>
+					<p>查理  斯密斯</p>
+					<p class="colorGary font12">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			<!--右侧内容--主编推荐-->
+			<div class="newBookRight floatRight">
+				<p class="font20 colorBlank">主编推荐</p>
+				<ul>
+					<li class="box"><span class="colorOgr">1</span><span class="text_rt spans" style="display: none;">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt" style="display: block;">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorOgr">2</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					</li>
+					<li><span class="colorOgr">3</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">4</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">5</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">6</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">7</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+					<div class="ebookTextrt">
+						<img src="images/ebooklu.jpg"/>
+						<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+					</div>
+					</li>
+					<li><span class="colorBlank">8</span><span class="text_rt spans" id="textborder">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--新书上架结束-->
+		
+		<!--独家提供开始-->
+		<div class="box1200 maringTop" id="offer">
+			<!--标题-->
+			<div class="box1200 disTitle">
+				<p class="distitles colorWhite">
+				独
+				</p>
+				<p class="distitlesr">家提供</p>
+				
+				<ul class="floatRight offerList">
+					<li class="list_txt">货币金融</li>
+					<li>社会文学</li>
+					<li>科学技术</li>
+					<li>儿童文学</li>
+					<li>教学参辅</li>
+					<li>生活</li>
+					<li>小说</li>
+				</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>
+			</div>
+			<!--内容1-->	
+			<ul class="box1200 offerContt" style="display: block;">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容2-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容3-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容4-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容5-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容6-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容7-->	
+			<ul class="box1200 offerContt">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/offer1.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--独家提供结束-->
+		
+		<!--猜你喜欢开始-->
+		<div class="box1200 maringTop" id="like">
+			<div class="box1200 disTitle">
+				<p class="distitles colorWhite">
+				独
+				</p>
+				<p class="distitlesr">家提供</p>
+				
+				<ul class="floatRight likeList">
+					<li class="colorblue"><img src="images/list.jpg"/> 换一批</li>
+				</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>
+			</div>
+			
+			<!--内容-->	
+			<div class="width3600">
+			<!--内容1-->
+			<ul class="box1200 offerContt floatLeft" style="display: block;">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容2-->
+			<ul class="box1200 offerContt floatLeft">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--内容3-->
+			<ul class="box1200 offerContt floatLeft">
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+				
+				<li class="offerCont">
+					<img class="imgcenter" src="images/likebook.jpg"/>
+					<p>查理   <span>斯密斯</span> </p>
+					<p class="colorBlank font14">中国邮电出版社</p>
+					<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+				</li>
+			</ul>
+			
+			<!--清除浮动-->
+			<div class="clear"></div>
+			</div>
+			
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--猜你喜欢结束-->
+		
+		<!--人文社科精选开始-->
+		<div class="box1200 maringTop" id="sift">
+			<ul class="sift">
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+				
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+				
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+				
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+				
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+				
+				<li class="siftList">
+					<div class="siftTxt floatLeft">
+						<p class="font14">人文社科精选</p>
+						<p class="colorGary">书好价优</p>
+						<p class="siftBorder">满3件折上7折</p>
+					</div>
+					<p class="sifttup floatRight"><img src="images/book-a.jpg"/></p>
+				</li>
+			</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--人文社科精选结束-->
+		
+		<!--wow广告栏开始-->
+		<div class="box1200 maringTop advertisingWOW">
+			<img src="images/ad2.png"/>
+		</div>
+		<!--wow广告栏结束-->
+		
+		<!--footer脚尾开始-->
+		<div class="autoBox maringTop" id="footer">
+		    <div class="autoBox footerIcon">
+		    	<ul id="serviceIcon">
+					<li></li>
+					<li class="icon2"></li>
+					<li class="icon3"></li>
+					<li class="icon4"></li>
+				</ul>
+		    </div>
+		    <!--service服务-->
+		    <div class="service box1200 maringTop">
+		    	<ul>
+		    		<li class="one"><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    	</ul>
+		 		<img class="foote_logo" src="images/logo_00.png"/>
+				<!--清除浮动-->
+		    	<div class="clear"></div>
+		    </div>
+	        <!--公司简介-->
+	        <p>
+	       		<a href="#">公司简介</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">Investor Relatins</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">网站联盟</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">乐购招商</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">机构销售</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">手机乐购</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">官方Blog</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">热死搜索</a>
+	        </p>
+	        <!--公司版权-->
+	        <p>	 
+		    	Copyright (C) 乐购网 2004-2016, All Rights Reserved	
+		    </p>
+	    	<!--footer脚尾结束-->
+		</div>
+		<!--footer脚尾结束-->
+		
+	</body>
+</html>

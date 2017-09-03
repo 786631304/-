@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.margin{
+	width:1200px;
+	margin: 0 auto;
+}
+img{
+	border: none;
+}
+.border{
+	border: 1px solid red;
+}
+
+
+
+
+/*宽度通栏*/
+.autoBox{
+	width: 100%;
+}
+
+/*宽度1200px*/
+.box1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*颜色橙色*/
+.colorOgr{
+	color: #FF6600;
+}
+/*红色*/
+.colorRed{
+	color: #FF0000;
+}
+
+/*蓝色*/
+.colorblue{
+	color: #468bfd;
+}
+
+/*灰色*/
+.colorBlank{
+	color: #808080;
+}
+/*黑色*/
+.colorBlanks{
+	color: #333;
+}
+
+/*白色*/
+.colorWhite{
+	color: #fff;
+}
+.colorgary{
+	color: #c0c0c0;
+}
+.colorGary{
+	color: #c0c0c0;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+/*首页标题*/
+.recomTitle{
+	font-size:20px;
+	padding: 5px 0;
+	border-bottom:4px solid #FF6600;
+}
+/*列表标题*/
+.disTitle{
+	font-size:18px;
+	border-bottom:4px solid #FF6600;
+}
+
+.ppt{
+	width: 328px;
+	height: 215px;
+}
+/*字体20*/
+.font20{
+	font-size: 20px;
+}
+
+/*字体18*/
+.font18{
+	font-size: 18px;
+}
+/*字体16*/
+.font16{
+	font-size: 16px;
+}
+/*字体14*/
+.font14{
+	font-size: 14px;
+}
+
+/*字体12*/
+.font14{
+	font-size: 12px;
+}
+
+/*上边距*/
+.maringTop{
+	margin-top: 30px;
+}
+
+.imgright{
+	width: 240px;
+	height: 286px;
+}
+/*图片居中*/
+.imgcenter{
+	display: block;
+	margin: auto;
+}
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}

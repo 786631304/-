@@ -1,0 +1,310 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*轮播+分类开始*/
+.carousel{
+	width: 1000px;
+	height: 430px;
+	float: left;
+}
+/*右侧内容*/
+.bannerRight{
+	width: 200px;
+	height: 430px;
+	float: right;
+}
+
+.bannerTitle{
+	width: 180px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 20px;
+	background: #93D470;
+}
+.bannerList{
+	width: 200px;
+	height: 20px;
+}
+
+.bannerList span{
+	width: 20px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	background: #FF6600;
+}
+.bannerList .bkcolor{
+	background: #b3b3b3;
+}
+.bannerListCont {
+	width: 200px;
+	height: 100px;
+}
+.bannerListCont img{
+	width: 100px;
+	height: 96px;
+}
+.bannerTxt{
+	width: 90px;
+	height: 96px;
+}
+
+.bnnarRit{
+	width: 200px;
+	height: 45px;
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+}
+
+
+/*轮播+分类结束*/
+
+/*折扣开始*/
+.distitle{
+	width: 140px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background: #ff6600;
+}
+.discountCont{
+	width: 210px;
+	height: 256px;
+	float: left;
+	margin-left: 37.5px;
+}
+.colorgary{
+	text-decoration: line-through;
+}
+.discountCont p{
+	margin-left: 10px;
+	line-height: 24px;
+}
+#discount li:hover{
+	cursor: pointer;
+	background-color: #F2F2F2;
+}
+#discount li img{
+	margin-top: 5px;
+}
+.disLeft{
+	margin-left: 0px;
+}
+/*折扣结束*/
+/*新书上架开始*/
+.newBookLeft{
+	width: 903px;
+	height: 498px;
+}
+.newBookTit{
+	width: 907px;
+	
+}
+.distitles{
+	width: 40px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	background: #ff6600;
+}
+
+.distitlesr{
+	float: left;
+	margin: 10px 0 0 4px;
+}
+
+.newBookLeft{
+	width: 903px;
+	height: 498px;
+	border: 2px solid #e6e6e6;
+	border-top: none;
+}
+
+.newBookCon{
+	width: 170px;
+	height: 248px;
+}
+.newBookCon p{
+	line-height: 24px;
+	margin-left: 20px;
+}
+.newBookLeft li{
+	margin:0 0 2px 13px;
+	float: left;
+}
+.newBookLeft li:hover{
+	background: #F2F2F2;
+}
+.newBookLeft li img{
+	margin-top: 20px;
+}
+.newBookLeft .newbooks{
+	margin-left: 0px;
+}
+/*右侧大盒子*/
+.newBookRight{
+	width: 280px;
+	height: 496px;
+	border: 2px solid #e6e6e6;
+}
+.newBookRight p{
+	line-height: 50px;
+	text-align: center;
+}
+
+.newBookRight li{
+	margin-left: 10px;
+	height: 40px;
+	color: #808080;
+	line-height:40px;
+	font-size:16px;
+}
+.newBookRight li .text_rt{
+	float: right;
+	width: 254px;
+	height: 39px;
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+}
+.newBookRight .box{
+	height: 162px;
+}
+.ebookTextrt{
+	margin-top: 10px;
+	width: 254px;
+	height: 151px;
+	float: right;
+	border-bottom: 1px solid #ccc;
+	display: none;
+}
+#box1{
+	width: 118px;
+	height: 118px;
+	text-align: left;
+	line-height: 23px;
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.ebookTextrt img{
+	width: 106px;
+	height: 140px;
+}
+#textborder{
+	border-bottom:none;
+}
+/*新书上架结束*/
+
+/*独家提供开始*/
+#offer{
+	border-bottom: 4px solid #F2F2F2;
+}
+.offerList{
+	width: 707px;
+}
+.list_txt{
+	color: #fff;
+	background: #FF6600;
+}
+.offerList li{
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-left: 1px;
+}
+
+/*内容*/
+#offer .offerContt{
+	display: none;
+}
+
+.offerCont{
+	width: 190px;
+	height: 245px;
+	float: left;
+	margin: 0 0 10px 10px;
+	cursor: pointer;
+}
+.offerCont img{
+	margin-top: 10px;
+}
+.offerCont p{
+	line-height: 25px;
+	margin-left: 25px;
+}
+.offerContt li:hover{
+	background: #F2F2F2;
+}
+/*独家提供结束*/
+
+/*猜你喜欢开始*/
+#like{
+	height: 600px;
+	border-bottom: 4px solid #F2F2F2;
+	position: relative;
+	overflow: hidden;
+}
+.likeList{
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 36px;
+}
+
+.width3600{
+	width: 3600px;
+	height: 520px;
+	position: absolute;
+	left: 0;
+}
+
+/*猜你喜欢结束*/
+
+/*人文社科精选开始*/
+.sift li{
+	float: left;
+}
+.siftList{
+	width: 200px;
+	height: 135px;
+}
+.siftTxt{
+	width: 100px;
+	height: 135px;
+}
+.siftTxt p{
+	margin: 10px 10px;
+}
+.siftBorder{
+	width: 85px;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	background: red;
+	margin-right: 6px;
+	border-radius:8px;
+}
+.sifttup img{
+	width: 95px;
+	height: 120px;
+	display: block;
+	margin-top: 10px;
+}
+
+
+
+
+
+/*wow广告栏开始*/
+.advertisingWOW{
+	margin-bottom: -30px;
+}
+/*wow广告栏结束*/

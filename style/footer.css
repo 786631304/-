@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*footer脚尾开始*/
+#footer{
+	font-size: 14px;
+	font-family: "黑体";
+	margin-bottom: 60px;
+}
+#footer a{
+	color: #333;
+	text-decoration: none;
+}
+.footerIcon
+{
+	height: 100px;
+	border-top: 6px solid #ff6600;
+	text-align: center;
+	background:#f2f2f2;
+}
+.footerIcon img
+{
+	margin: 20px;
+}
+
+#serviceIcon{
+	width: 760px;
+	margin: 25px auto;
+}
+
+#serviceIcon li{
+	background: url(../images/footer_bg.png) no-repeat;
+	width: 138px;
+	height: 52px;
+	float: left;
+	margin-right: 50px;
+}
+#serviceIcon .icon2{
+	background-position: 0px -51px;
+}
+
+#serviceIcon .icon3{
+	background-position: 0px -103px;
+}
+
+#serviceIcon .icon4{
+	background-position: 0px -156px;
+}
+
+
+ /*service服务*/
+ .service
+ {
+ 	width:700px;
+ 	text-align: center;
+ 	position: relative;
+ }
+
+ .foote_logo
+ {
+ 	top: 20px;
+ 	left: 610px;
+ 	display: block;
+ 	position: absolute;
+ }
+ .service ul
+ {
+ 	float: left;
+ }
+
+ .service  li
+ {
+ 	width: 120px;
+ 	line-height:25px;
+ 	text-align: center;
+}
+
+ .service .one
+ {
+ 	font-weight: bold;
+ }
+
+/*公司简介+公司版权*/
+#footer p
+{
+	color: #333;
+	text-align: center;
+	/*font-size: 14px;*/
+	/*font-family: "黑体";*/
+	margin-top:30px;
+}
+

@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>电子商城首页</title>
+		<!--重置样式-->
+		<link rel="stylesheet" type="text/css" href="style/reset.css"/>
+		<!--公共部分样式-->
+		<link rel="stylesheet" type="text/css" href="style/common.css"/>
+		<!--头部样式-->
+		<link rel="stylesheet" type="text/css" href="style/header.css"/>
+		<!--首页样式-->
+		<link rel="stylesheet" type="text/css" href="style/index.css"/>
+		<!--轮播样式-->
+		<link rel="stylesheet" type="text/css" href="style/slide.css"/>
+		<!--页脚样式-->
+		<link rel="stylesheet" type="text/css" href="style/footer.css"/>
+		<!--滚动楼层样式-->
+		<link rel="stylesheet" type="text/css" href="style/floorLayer.css"/>
+		<!--引入jq文件库-->
+		<script src="script/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="script/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--滚动楼层js-->
+		<script src="script/floorLayer.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入js轮播插件-->
+		<script src="script/tyslide.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--页头开始-->
+		<div class="autoBox" id="header">
+			<!--登录-->
+			<div class="autoBox login_top">
+				<div class="box1200" id="login_text"> 
+					欢迎光临<span>乐购</span>,请<a href="#">登录</a>\<a href="#">注册</a>
+				</div>
+			</div>
+			<!--搜索框+购物车-->
+			<div class="box1200 back_gauge"> 
+				<!--购物车-->
+				<ul class="shopCart">
+					<li class="left_text">购物车 3</li>
+					<li>我的订单</li>
+				</ul>
+				<!--搜索框-->
+				<div id="search">
+					<form action="#" method="get">
+						<input type="text" id="searchBox" value="" placeholder="创意文具" />
+						<input type="button" id="searchBtn" value="" />
+					</form>
+				</div>
+			</div>
+			<!--导航栏-->
+			<div class="box1200">
+				<!--Logo-->
+				<div id="logo">
+					<img src="images/LOGO.jpg"/>
+				</div>
+				<!--导航栏-->
+				<ul id="mainNav">
+					<li>图书</li>
+					<li>电子书</li>
+					<li>原创文学</li>
+					<li>服装</li>
+					<li>运动户外</li>
+					<li>孕婴童</li>
+					<li>家居</li>
+					<li>创意文具</li>
+					<li>地方特产</li>
+					<li>海外购</li>
+					<li>电器城</li>
+				</ul>
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--页头结束-->
+		
+		<!--banner轮播+分类开始-->
+		<div class="box1200" id="categoryBanner">
+			<!--菜单分类列表-->
+			<ul id="mainMenu">
+				<li>
+					<p class="menuList"><a href="#">图书、</a><a href="#">电子书、</a><a href="#">童书</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">创意文具</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">服饰、</a><a href="#">内衣、</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">鞋靴、</a><a href="#">箱包、</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">户外运动</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">孕、</a><a href="#">婴、</a><a href="#">童</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">家居、</a><a href="#">家纺、</a><a href="#">汽车</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">家具、</a><a href="#">家装、</a><a href="#">康体</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">美妆、</a><a href="#">个人护理、</a><a href="#">成人</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">食品、</a><a href="#">茶酒、</a><a href="#">生鲜</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">腕表、</a><a href="#">珠宝、</a><a href="#">眼镜</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">手机、</a><a href="#">数码、</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">电脑办公</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<li>
+					<p class="menuList"><a href="#">家用电器</a></p>
+					<!--显示商品-->
+					<dl class="sunmenu">
+						<dt><span><a href="#">儿童书馆>></a></span><span><a href="#">电子书馆>></a></span><span><a href="#">童书>></a></span></dt>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+						<div class="shoppings">
+							<dd><span class="text-org">文艺</span></dd>
+							<pre><span id="text_min"><a href="#">小说  </a><a href="#">文学  </a><a href="#">传记  </a><a href="#">青春  </a><a href="#">动漫  </a><a href="#">摄影  </a><a href="#">明星  </a></span></pre>
+						</div>
+					</dl>
+				</li>
+				<!--清除浮动-->
+				<div class="clear"></div>
+			</ul>
+			<!--轮播开始-->
+			<div class="carousel">
+				<!--轮播1-->
+				<div class="pptbox" id="carouselBanner">
+					<ul class="innerwrapper">
+						<li><a href="#"><img src="images/banner1.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner2.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner3.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner4.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner5.jpg"/></a></li>
+						<li><a href="#"><img src="images/banner6.jpg"/></a></li>
+					</ul>
+					<ul class="controls">
+						<li class="current">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+					</ul>			
+					<span class="btnleft"></span>
+					<span class="btnright"></span>
+				</div>
+			</div>
+			<!--轮播结束-->
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--轮播+分类结束-->
+			
+		<!--推荐商品开始-->
+		<div class="floorLayer box1200" id="recommend">
+		    <!--标题-->
+			<div class="recomTitle maringTop colorOgr">
+				乐购·今日推荐
+			</div>
+			<!--内容-->
+			<div class="recommendCon">
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp01.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+				<div class="recomBox">
+					<img class="imgcenter" src="images/demo-cp02.jpg" />
+					<p><img src="images/qianggouICON.jpg" /></p>
+					<p class="recotxt">黑爵青峰侠六键电竞游戏鼠标</p>
+					<p class="recoRed">全国联保 一年免费包换</p>
+					<span calss="spantxt">&yen;:299</span>
+				</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+			</div>
+		</div>
+		<!--推荐商品结束-->
+			
+		<!--图书电子书开始-->
+		<div class="floorLayer box1200" id="ebook">
+			<!--左侧大盒子-->
+			<div class="ebookLeft">
+			    <!--标题-->
+				<div class="recomTitle maringTop">
+					图书&emsp;电子书
+					<ul class="ebookToptxt">
+					<li class="list">最新上架</li>
+					<li>独家畅销</li>
+					<li>电子书</li>
+					</ul>
+					<!--清除浮动-->
+					<div class="clear"></div>
+				</div>
+				<!--内容-->
+				<div class="ebookCon">
+				<!--左边内容-->
+					<div class="ebookConleft">
+						<img class="imgright" src="images/ebookLeft.jpg" />
+						<ul class="ebookLfettxt">
+						<li>中小学教辅</li>
+						<li>外语</li>
+						<li>考试</li>
+						<li>小说</li>
+						<li>文学</li>
+						<li>青春文学</li>
+						<li>成功\励志</li>
+						<li>管理</li>
+						<li>历史</li>
+						<li>哲学\宗教</li>
+						<li>亲子\家教</li>
+						<li>全部分类></li>
+						</ul>
+						<!--清除浮动-->
+						<div class="clear"></div>
+					</div>
+					<!--右边内容1-->
+					<div class="ebookConright" style="display: block;">
+						<div class="ebookBanner" id="ebBanner">
+						    <!--轮播1开始-->
+							<div class="pptbox" id="ebBanner1">
+								<ul class="innerwrapper">
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt.jpg" /></a></li>
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt2.jpg" /></a></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+							<!--轮播1结束-->
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">1奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter" src="images/demo-ebook.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+					</div>
+					<!--右边内容2-->
+					<div class="ebookConright">
+						<div class="ebookBanner" id="ebBanner">
+						    <!--轮播1开始-->
+							<div class="pptbox" id="ebBanner2">
+								<ul class="innerwrapper">
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt2.jpg" /></a></li>
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt.jpg" /></a></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+							<!--轮播1结束-->
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">2奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook2.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+					</div>
+					
+					<!--右边内容3-->
+					<div class="ebookConright">
+						<div class="ebookBanner" id="ebBanner">
+						    <!--轮播1开始-->
+							<div class="pptbox" id="ebBanner3">
+								<ul class="innerwrapper">
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt.jpg" /></a></li>
+									<li><a href="#"><img class="ppt" src="images/demo-ebook-ppt2.jpg" /></a></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+							<!--轮播1结束-->
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">3奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<div class="ebookBanner">
+							<p class="font18">奥运狂欢</p>
+							<p class="colorRed">10万种电子书直降40%</p>
+							<img class="imgcenter imgwh" src="images/demo-ebook3.jpg" />
+							<p><span class="colorRed font18">&yen;:49</span>&emsp;<span class="colorgary font18">&yen;:79</span></p>
+						</div>
+						<!--清除浮动-->
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			
+			<!--右侧大盒子-->
+			<div class="ebookRight">
+				<p class="font18 colorBlank">新书畅销榜</p>
+				<ul>
+					<li class="box"><span class="colorOgr">1</span><span class="text_rt spans" style="display: none;">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt" style="display: block;">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorOgr">2</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					</li>
+					<li><span class="colorOgr">3</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">4</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">5</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">6</span><span class="text_rt spans">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+					<li><span class="colorBlank">7</span><span class="text_rt spans" id="textborder">就喜欢看不惯我 又干不掉我的样子</span>
+						<div class="ebookTextrt">
+							<img src="images/ebooklu.jpg"/>
+							<p id="box1">从你的全世界路过入选央视"2014中国好书"的80后作品!十年华语畅销小说,王家卫陈国富倾力推荐,1500万次转发,超4亿次阅读</p>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--图书电子书结束-->
+			
+		<!--服装开始-->
+		<div class="floorLayer box1200 maringTop" id="clothing">
+				<!--服装标头-->
+			<div class="clothTitle recomTitle">
+				服装
+				<ul class="clothTitler font16">
+					<li class="clolist">女装内衣</li>
+					<li>热销男装</li>
+					<li>精品鞋靴</li>
+				</ul>
+				<!--清除浮动-->
+				<div class="clear"></div>
+			</div>
+			<!--内容-->
+			<div class="clothCont box1200">
+				<div class="clothLfetcon">
+					<img src="images/index7_17.jpg"/>
+					<ul>
+						<li>女包</li>
+						<li>防晒品</li>
+						<li>短裤</li>
+						<li>冰丝内裤</li>
+						<li>男包</li>
+						<li>蕾丝内裤</li>
+						<li>女包</li>
+						<li>奢侈品</li>
+						<li>女鞋</li>
+						<li>功能箱包</li>
+						<li>男鞋</li>
+						<li>全部分类></li>
+					</ul>
+				</div>
+				<!--右侧盒子1-->
+					<ul class="clothRightcon" style="display: block;">
+						<!--服装轮播1开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner1">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_06.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_08.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播1结束-->
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+					<!--右侧盒子2-->
+			<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播2开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner2">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_05.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_06.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播2结束-->
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+				<!--右侧盒子3-->
+					<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播3开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner3">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_08.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_07.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播3结束-->
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">达芙妮</p>
+							<p class="font14 colorBlank dfn">夏季凉鞋清仓</p>
+							<p class="mesgeTxt"><a href="#">领77元优惠券</a></p>
+							<img class="cloimg2" src="images/dafune.gif"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			</div>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			<ul class="clophtos">
+				<li>
+				<img src="images/logo13_11.jpg"/>
+				<img src="images/logo13_12.jpg"/>
+				<img src="images/logo13_13.jpg"/>
+				<img src="images/logo13_14.jpg"/>
+				<img src="images/logo13_15.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_17.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_11.jpg"/>
+				</li>
+			</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>	
+		</div>
+		<!--服装结束-->
+		
+		<!--户外运动开始-->
+		<div class="floorLayer box1200 maringTop" id="outdoors">
+					<!--户外运动标头-->
+			<div class="clothTitle recomTitle">
+				户外运动
+				<ul class="clothTitler font16">
+					<li class="clolist">国际名品</li>
+					<li>户外装备</li>
+					<li>运动潮流</li>
+				</ul>
+				<!--清除浮动-->
+				<div class="clear"></div>
+			</div>
+			<!--内容-->
+			<div class="clothCont box1200">
+				<div class="clothLfetcon">
+					<img src="images/index7_17.jpg"/>
+					<ul>
+						<li>女包</li>
+						<li>防晒品</li>
+						<li>短裤</li>
+						<li>冰丝内裤</li>
+						<li>男包</li>
+						<li>蕾丝内裤</li>
+						<li>女包</li>
+						<li>奢侈品</li>
+						<li>女鞋</li>
+						<li>功能箱包</li>
+						<li>男鞋</li>
+						<li>全部分类></li>
+					</ul>
+				</div>
+				<!--右侧盒子1-->
+					<ul class="clothRightcon" style="display: block;">
+						<!--服装轮播1开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner4">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_06.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_08.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播1结束-->
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+					<!--右侧盒子2-->
+			<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播2开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner5">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_05.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_06.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播2结束-->
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+				<!--右侧盒子3-->
+					<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播3开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner6">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_08.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_07.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播3结束-->
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			</div>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			<ul class="clophtos">
+				<li>
+				<img src="images/logo13_11.jpg"/>
+				<img src="images/logo13_12.jpg"/>
+				<img src="images/logo13_13.jpg"/>
+				<img src="images/logo13_14.jpg"/>
+				<img src="images/logo13_15.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_17.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_11.jpg"/>
+				</li>
+			</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>	
+		</div>
+		<!--户外结束-->
+			
+		<!--童装开始-->
+		<div class="floorLayer box1200 maringTop" id="children">
+					<!--童装标题-->
+			<div class="clothTitle recomTitle">
+				童装
+				<ul class="clothTitler font16">
+					<li class="clolist">儿童服装</li>
+					<li>婴儿装</li>
+					<li>小潮童鞋</li>
+				</ul>
+				<!--清除浮动-->
+				<div class="clear"></div>
+			</div>
+			<!--内容-->
+			<div class="clothCont box1200">
+				<div class="clothLfetcon">
+					<img src="images/index7_17.jpg"/>
+					<ul>
+						<li>女包</li>
+						<li>防晒品</li>
+						<li>短裤</li>
+						<li>冰丝内裤</li>
+						<li>男包</li>
+						<li>蕾丝内裤</li>
+						<li>女包</li>
+						<li>奢侈品</li>
+						<li>女鞋</li>
+						<li>功能箱包</li>
+						<li>男鞋</li>
+						<li>全部分类></li>
+					</ul>
+				</div>
+				<!--右侧盒子1-->
+					<ul class="clothRightcon" style="display: block;">
+						<!--服装轮播1开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner7">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/lunboo.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/lunbo.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播1结束-->
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd4.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd3.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd4.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+					<!--右侧盒子2-->
+			<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播2开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner8">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index_childs.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_06.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播2结束-->
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd3.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd3.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">笛莎</p>
+							<p class="font14 colorBlank dfn">夏季清仓6.9元起</p>
+							<p class="mesgeTxt"><a href="#">满199减10</a></p>
+							<img class="cloimg2" src="images/chd3.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					
+				<!--右侧盒子3-->
+					<ul class="clothRightcon"id="closBanner">
+						<!--服装轮播3开始-->
+						<li class="clothList clolisthp">
+							<div class="pptbox" id="closBanner9">
+								<ul class="innerwrapper">
+									<li class="clothList clolisthp"><img src="images/index10_08.jpg"/></li>
+									<li class="clothList clolisthp"><img src="images/index10_07.jpg"/></li>
+								</ul>
+								<ul class="controls">
+									<li class="current">1</li>
+									<li>2</li>
+								</ul>			
+								<span class="btnleft"></span>
+								<span class="btnright"></span>
+							</div>
+						</li>
+						<!--服装轮播3结束-->
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothList">
+							<p class="font18 dfn">运动品牌</p>
+							<p class="font14 colorBlank dfn">时尚炫酷泳镜</p>
+							<p class="mesgeTxt"><a href="#">满299减50</a></p>
+							<img class="cloimg2" src="images/yund.jpg"/>
+						</li>
+						<li class="clothLists clolisthp"><img class="cloimg3" src="images/index11_08.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+						<li class="clothLists"><img class="cloimg4" src="images/index100_11.jpg"/></li>
+					</ul>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			</div>
+					<!--清除浮动-->
+					<div class="clear"></div>
+			<ul class="clophtos">
+				<li>
+				<img src="images/logo13_11.jpg"/>
+				<img src="images/logo13_12.jpg"/>
+				<img src="images/logo13_13.jpg"/>
+				<img src="images/logo13_14.jpg"/>
+				<img src="images/logo13_15.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_17.jpg"/>
+				<img src="images/logo13_16.jpg"/>
+				<img src="images/logo13_11.jpg"/>
+				</li>
+			</ul>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--童装结束-->
+			
+		<!--家居家居日用开始-->
+		<div class="floorLayer box1200 maringTop" id="fitting">
+			<!--标题-->
+			<div class="recomTitle">
+				家居日用
+			</div>
+			<!--内容-->
+			<div class="box1200">
+				<div class="fittingLfet">
+					<img src="images/index21_05.jpg"/>
+				</div>
+				<ul class="fittingRight">
+					<li class="fittingList"><a href="#"><img src="images/index22_05.jpg"/></a></li>
+					<li class="fittingList"><a href="#"><img src="images/index22_05.jpg"/></a></li>
+					<li class="fittingList"><a href="#"><img src="images/index22_05.jpg"/></a></li>
+					<li class="fittingList"><a href="#"><img src="images/index22_05.jpg"/></a></li>
+
+					<li class="fittingList2"><a href="#"><img src="images/index23_08.jpg"/></a></li>
+					<li class="fittingList2"><a href="#"><img src="images/index23_08.jpg"/></a></li>
+					<li class="fittingList2"><a href="#"><img src="images/index23_08.jpg"/></a></li>
+					<li class="fittingList2"><a href="#"><img src="images/index23_08.jpg"/></a></li>
+				</ul>
+			</div>
+			<!--清除浮动-->
+			<div class="clear"></div>
+		</div>
+		<!--家居家居日用结束-->
+			
+		<!--商品推广开始-->
+		<div class="floorLayer box1200 maringTop" id="popularize">
+			<!--标题-->
+			<div class="recomTitle colorOgr">
+				推广商品
+				<ul class="popularizeList">
+					<li class="oneBorder">●</li>
+					<li>●</li>
+					<li>●</li>
+				</ul>
+			</div>
+			<div class="width3600">
+				
+	    	<!--推广内容1-->
+			<ul class="backBG box1200 floatLeft" style="display: block;">
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index25_12.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    	</ul>
+	    	
+	    	<!--推广内容2-->
+	    	<ul class="backBG box1200 floatLeft">
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+	    			<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    			<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf1.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    	</ul>
+	    	
+	    	<!--推广内容3-->
+	    	<ul class="backBG box1200 floatLeft">
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    		
+	    		<li>
+		    		<a href="#"><img src="images/index_nf2.jpg"/></a>
+		    		<p><a href="#">Pigeon法国制奶嘴,无毒天然乳胶</a></p>
+		    		<p class="money">&yen;:189</p>
+					<p class="commot">已有<span>988</span>条评论</p>
+	    		</li>
+	    	</ul>
+	    	<!--清除浮动-->
+	    	<div class="clear"></div>
+			</div>
+	    	<!--清除浮动-->
+	    	<div class="clear"></div>
+		</div>
+		<!--商品推广结束-->
+		
+		<!--footer脚尾开始-->
+		<div class="autoBox maringTop" id="footer">
+		    <div class="autoBox footerIcon">
+		    	<ul id="serviceIcon">
+					<li></li>
+					<li class="icon2"></li>
+					<li class="icon3"></li>
+					<li class="icon4"></li>
+				</ul>
+		    </div>
+		    <!--service服务-->
+		    <div class="service box1200 maringTop">
+		    	<ul>
+		    		<li class="one"><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    		<li><a href="#">购物指南</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    		<li><a href="#">支付方式</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    		<li><a href="#">订单服务</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    		<li><a href="#">退换货</a></li>
+		    	</ul>
+		    	
+		    	<ul>
+		    		<li class="one"><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    		<li><a href="#">商家服务</a></li>
+		    	</ul>
+		 		<img class="foote_logo" src="images/logo_00.png"/>
+				<!--清除浮动-->
+		    	<div class="clear"></div>
+		    </div>
+	        <!--公司简介-->
+	        <p>
+	       		<a href="#">公司简介</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">Investor Relatins</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">网站联盟</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">乐购招商</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">机构销售</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">手机乐购</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">官方Blog</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	       		<a href="#">热死搜索</a>
+	        </p>
+	        <!--公司版权-->
+	        <p>	 
+		    	Copyright (C) 乐购网 2004-2016, All Rights Reserved	
+		    </p>
+		</div>
+		<!--footer脚尾结束-->
+			
+		<!--楼梯滚动开始-->
+		<ul id="floorLayer">
+			<li>推荐</li>
+			<li class="floor2">图书</li>
+			<li class="floor3">服装</li>
+			<li class="floor4">运动</li>
+			<li class="floor5">童装</li>
+			<li class="floor6">家居</li>
+			<li class="floor7">推广</li>
+			<li class="floor8">返回</li>
+		</ul>
+		<!--楼梯滚动结束-->
+		
+		<!--领券中心 & 二维码开始-->
+		<ul class="certificate">
+			<li><img src="images/two_30.jpg"/></li>
+			<li class="certificateCode">
+				<img class="floatLeft" src="images/two_31_01.jpg"/>
+				<img class="floatLeft certificateCodes" src="images/two_33.jpg"/>
+			</li>
+			<li><img src="images/two_32.jpg"/><p class="num">28</p></li>
+		</ul>
+		<!--领券中心 & 二维码结束-->
+		
+		<!--固定搜索框开始-->
+		<div class="autoBox  fixedSearch">
+			<div class="box1200">
+				<img class="floatLeft" src="images/logo_00.png"/>
+				<div class="floatRight" id="newSearch"></div>
+			</div>
+			
+		</div>
+		<!--固定搜索框结束-->
+	</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#floorLayer{
+	position: fixed;
+	left:10px;
+	top: 300px;
+	display: none;
+}
+#floorLayer li{
+	width: 0px;
+	height: 28px;
+	color: #fff;
+	overflow: hidden;
+	padding-left: 40px;
+	padding-top: 12px;
+	cursor: pointer;
+	background-image: url(../images/fix_box_icon.png);
+	background-repeat: no-repeat;
+	background-color: #F2F2F2;
+}
+.floor2{
+	background-position: 0px -40px;
+}
+.floor3{
+	background-position: 0px -80px;
+}
+.floor4{
+	background-position: 0px -120px;
+}
+.floor5{
+	background-position: 0px -160px;
+}
+.floor6{
+	background-position: 0px -200px;
+}
+.floor7{
+	background-position: 0px -240px;
+}
+.floor8{
+	background-position: 0px -280px;
+}
+
+/*领券中心 & 二维码开始*/
+.certificate{
+	position: fixed;
+	top: 200px;
+	right: 0px;
+	cursor: pointer;
+}
+.certificateCode{
+	position: relative;
+}
+.certificateCodes{
+	position: absolute;
+	left: 40px;
+	top: 0;
+}
+.num{
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	border-radius:50%;
+	background: #FF0000;
+	position: relative;
+	top:-38px;
+	left: 2px;
+}
+/*领券中心 & 二维码结束*/

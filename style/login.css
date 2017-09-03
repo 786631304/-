@@ -1,0 +1,107 @@
+
+#loginAd{
+	position: relative;
+	background: #E93854;
+	cursor: pointer;
+}
+.taobaologin{
+	width: 350px;
+	height: 270px;
+	position: absolute;
+	top: 120px;
+	right: 200px;
+	background: #fff;
+}
+.loginList{
+	width: 310px;
+	height: 250px;
+	margin:10px auto;
+}
+.loginTitle li{
+	width: 155px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+	float: left;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.listLogin{
+	color: #FF6600;
+}
+
+#loginEqcodeICON
+{
+	margin-right: 10px;
+	padding: 4px;
+	border: solid 1px #ccc;
+	position: absolute;
+	z-index: 10;
+	top: 60px;
+	left:96px;
+}
+
+#loginPhoneICON
+{
+	position: absolute;
+	display: none;
+	z-index: 9;
+	height: 157px;
+	top: 60px;
+	right: 60px;
+}
+
+
+
+.box1 input{
+	width: 275px;
+	height: 36px;
+	position: relative;
+	margin: 15px 15px;
+}
+#password{
+	margin-top: 0;
+}
+#button{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 36px;
+	background: #FF6600;
+	border: none;
+	letter-spacing: 16px;
+	margin-top: 0;
+}
+.box2{
+	width: 310px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border-top: 1px solid #F2F2F2;
+}
+#username,#password{
+	text-indent: 50px;
+}
+.box1 .tb2{
+	width: 40px;
+	height: 38px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 63px;
+	left: 36px;
+	background-color: #ddd;
+}
+.box1 .tb3{
+	width: 40px;
+	height: 38px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 118px;
+	left: 36px;
+	background-color: #ddd;
+}
